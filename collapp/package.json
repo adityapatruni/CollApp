@@ -1,0 +1,24 @@
+{
+    "name": "collapp",
+    "version": "1.1.0",
+    "description": "issue tracker/project management tool",
+    "scripts": {
+        "lint": "./node_modules/.bin/eslint src/main/webapp/app src/main/webapp/app-login/ src/main/webapp/setup/",
+        "lint-fix": "./node_modules/.bin/eslint src/main/webapp/app src/main/webapp/app-login/ src/main/webapp/setup/ --fix"
+    },
+    "keywords": [
+        "kanban",
+        "project-management",
+        "issue-tracker",
+        "project-planning",
+        "issue-board",
+        "bugtracker"
+    ],
+    "devDependencies": {
+        "eslint": "5.16.0",
+        "eslint-utils": ">=1.4.1",
+        "eslint-plugin-angular": "4.0.1",
+        "eslint-plugin-html": "5.0.5"
+    },
+    "preferGlobal": true
+}

@@ -1,0 +1,15 @@
+lvg-component-card {
+    display: block;
+}
+
+.collapp-closed-card,
+a.collapp-closed-card,
+a:link.collapp-closed-card,
+a:hover.collapp-closed-card,
+a:focus.collapp-closed-card,
+a:visited.collapp-closed-card,
+a:active.collapp-closed-card {
+    color: #999;
+    text-decoration: line-through;
+}
+
